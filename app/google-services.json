@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "421365683318",
+    "firebase_url": "https://market-2af0c.firebaseio.com",
+    "project_id": "market-2af0c",
+    "storage_bucket": "market-2af0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421365683318:android:b71b34c486453c4be47b57",
+        "android_client_info": {
+          "package_name": "com.jasper.market"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421365683318-in4t70nh8pripga7aia2k7l8b6535jv8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jasper.market",
+            "certificate_hash": "51f5f38241e3fd58e55d3f2b241d585e10f02152"
+          }
+        },
+        {
+          "client_id": "421365683318-trsmp2f8b3grmltoig7mrvk4eq0uk3ho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzcjMOQcH79wdFrueLoiQto_6qUD4rYv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421365683318-trsmp2f8b3grmltoig7mrvk4eq0uk3ho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

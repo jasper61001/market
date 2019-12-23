@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".calculateActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="明信片"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/postcard_1_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginTop="8dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:onClick="postcard_1"
+        android:text="一張"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="50元貼紙"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="@+id/postcard_1_bt"
+        app:layout_constraintTop_toBottomOf="@+id/postcard_1_bt" />
+
+    <Button
+        android:id="@+id/sticker50_1_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginTop="8dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:onClick="sticker50_1"
+        android:text="一張"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="胸章"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="@+id/sticker50_1_bt"
+        app:layout_constraintTop_toBottomOf="@+id/sticker50_1_bt" />
+
+    <Button
+        android:id="@+id/badge_1_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginTop="9dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:text="一個"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/postcard_4_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:onClick="postcard_4"
+        android:text="四張"
+        app:layout_constraintStart_toEndOf="@+id/postcard_1_bt"
+        app:layout_constraintTop_toTopOf="@+id/postcard_1_bt" />
+
+    <Button
+        android:id="@+id/postcard_10_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:onClick="postcard_10"
+        android:text="十張"
+        app:layout_constraintStart_toEndOf="@+id/postcard_4_bt"
+        app:layout_constraintTop_toTopOf="@+id/postcard_4_bt" />
+
+    <Button
+        android:id="@+id/sticker50_4_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:onClick="sticker50_4"
+        android:text="買三送一"
+        app:layout_constraintStart_toEndOf="@+id/sticker50_1_bt"
+        app:layout_constraintTop_toTopOf="@+id/sticker50_1_bt" />
+
+    <Button
+        android:id="@+id/badge_4_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:text="四個"
+        app:layout_constraintStart_toEndOf="@+id/badge_1_bt"
+        app:layout_constraintTop_toTopOf="@+id/badge_1_bt" />
+
+    <Button
+        android:id="@+id/badge_10_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:text="十個"
+        app:layout_constraintStart_toEndOf="@+id/badge_4_bt"
+        app:layout_constraintTop_toTopOf="@+id/badge_4_bt" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="襪子"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="@+id/badge_1_bt"
+        app:layout_constraintTop_toBottomOf="@+id/badge_1_bt" />
+
+    <Button
+        android:id="@+id/socks_1_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginTop="8dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:text="一個"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/socks_2_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:text="兩個"
+        app:layout_constraintStart_toEndOf="@+id/socks_1_bt"
+        app:layout_constraintTop_toTopOf="@+id/socks_1_bt" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="燙布胸針"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="@+id/socks_1_bt"
+        app:layout_constraintTop_toBottomOf="@+id/socks_1_bt" />
+
+    <Button
+        android:id="@+id/hotBadge_1_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginTop="8dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:text="一個"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/hotBadge_2_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:text="兩個"
+        app:layout_constraintStart_toEndOf="@+id/hotBadge_1_bt"
+        app:layout_constraintTop_toTopOf="@+id/hotBadge_1_bt" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="其他"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="@+id/hotBadge_1_bt"
+        app:layout_constraintTop_toBottomOf="@+id/hotBadge_1_bt" />
+
+    <Button
+        android:id="@+id/drinkBag_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginTop="8dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="飲料提袋"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/socksHotbadge"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="燙布+襪子"
+        app:layout_constraintStart_toEndOf="@+id/drinkBag_bt"
+        app:layout_constraintTop_toTopOf="@+id/drinkBag_bt" />
+
+    <Button
+        android:id="@+id/postcardBadge100"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="明信片+胸章100"
+        app:layout_constraintStart_toEndOf="@+id/socksHotbadge"
+        app:layout_constraintTop_toTopOf="@+id/socksHotbadge" />
+
+    <Button
+        android:id="@+id/pencilcase_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginTop="16dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="鉛筆盒"
+        app:layout_constraintStart_toStartOf="@+id/drinkBag_bt"
+        app:layout_constraintTop_toBottomOf="@+id/drinkBag_bt" />
+
+    <Button
+        android:id="@+id/calendar_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="桌曆"
+        app:layout_constraintStart_toEndOf="@+id/pencilcase_bt"
+        app:layout_constraintTop_toTopOf="@+id/pencilcase_bt" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="紋身貼"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="@+id/postcard_10_bt"
+        app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/tatoo_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginTop="8dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:onClick="tatoo"
+        android:text="一張"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorAccent"
+        android:onClick="calculate"
+        android:text="計算"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="元"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toEndOf="@+id/price"
+        app:layout_constraintTop_toTopOf="@+id/price" />
+
+    <Button
+        android:id="@+id/postcardBadge200"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="明信片+胸章200"
+        app:layout_constraintStart_toEndOf="@+id/calendar_bt"
+        app:layout_constraintTop_toTopOf="@+id/calendar_bt" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="totalgoods"
+        android:text="明細"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

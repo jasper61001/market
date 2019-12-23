@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".badgeActivity">
+
+
+    <ImageView
+        android:id="@+id/badge32_switch_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/badge32_toastegg_bt"
+        app:layout_constraintTop_toTopOf="@+id/badge32_toastegg_bt"
+        app:layout_constraintWidth_percent="0.15"
+        app:srcCompat="@drawable/badge32_switch" />
+
+    <TextView
+        android:id="@+id/badge32_switch_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="總數 : 0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="@+id/badge32_switch_bt"
+        app:layout_constraintStart_toStartOf="@+id/badge32_switch_bt"
+        app:layout_constraintTop_toBottomOf="@+id/badge32_switch_bt"
+        app:layout_constraintWidth_percent="0.15" />
+
+
+    <ImageView
+        android:id="@+id/badge32_3_dinosaur_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/badge32_3_face_bt"
+        app:layout_constraintTop_toTopOf="@+id/badge32_3_face_bt"
+        app:layout_constraintWidth_percent="0.15"
+        app:srcCompat="@drawable/badge32_3_dinosaur" />
+
+    <TextView
+        android:id="@+id/badge32_3_dinosaur_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="總數 : 0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="@+id/badge32_3_dinosaur_bt"
+        app:layout_constraintStart_toStartOf="@+id/badge32_3_dinosaur_bt"
+        app:layout_constraintTop_toBottomOf="@+id/badge32_3_dinosaur_bt"
+        app:layout_constraintWidth_percent="0.15" />
+
+    <ImageView
+        android:id="@+id/badge32_3_face_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/badge32_3_hello_bt"
+        app:layout_constraintTop_toTopOf="@+id/badge32_3_hello_bt"
+        app:layout_constraintWidth_percent="0.15"
+        app:srcCompat="@drawable/badge32_3_face" />
+
+    <TextView
+        android:id="@+id/badge32_3_face_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="總數 : 0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="@+id/badge32_3_face_bt"
+
+        app:layout_constraintStart_toStartOf="@+id/badge32_3_face_bt"
+        app:layout_constraintTop_toBottomOf="@+id/badge32_3_face_bt"
+        app:layout_constraintWidth_percent="0.15" />
+
+    <ImageView
+        android:id="@+id/badge32_3_hello_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="24dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.15"
+        app:srcCompat="@drawable/badge32_3_hello" />
+
+    <TextView
+        android:id="@+id/badge32_3_hello_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="總數 : 0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="@+id/badge32_3_hello_bt"
+        app:layout_constraintStart_toStartOf="@+id/badge32_3_hello_bt"
+        app:layout_constraintTop_toBottomOf="@+id/badge32_3_hello_bt"
+        app:layout_constraintWidth_percent="0.15" />
+
+    <ImageView
+        android:id="@+id/badge32_bulan_pig_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@+id/badge32_3_hello_bt"
+        app:layout_constraintTop_toTopOf="@+id/badge32_3_hello_bt"
+        app:layout_constraintWidth_percent="0.15"
+        app:srcCompat="@drawable/badge32_bulan_pig" />
+
+    <TextView
+        android:id="@+id/badge32_bulan_pig_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="總數 : 0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="@+id/badge32_bulan_pig_bt"
+        app:layout_constraintStart_toStartOf="@+id/badge32_bulan_pig_bt"
+        app:layout_constraintTop_toBottomOf="@+id/badge32_bulan_pig_bt"
+        app:layout_constraintWidth_percent="0.15" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:onClick="reset"
+        android:text="重新計算"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.15" />
+
+    <ImageView
+        android:id="@+id/badge32__dinosaur_blue_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@+id/badge32_bulan_pig_bt"
+        app:layout_constraintTop_toTopOf="@+id/badge32_bulan_pig_bt"
+        app:layout_constraintWidth_percent="0.15"
+        app:srcCompat="@drawable/badge32_dinosaur_blue" />
+
+    <TextView
+        android:id="@+id/badge32__dinosaur_blue_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="總數 : 0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="@+id/badge32__dinosaur_blue_bt"
+        app:layout_constraintStart_toStartOf="@+id/badge32__dinosaur_blue_bt"
+        app:layout_constraintTop_toBottomOf="@+id/badge32__dinosaur_blue_bt"
+        app:layout_constraintWidth_percent="0.15" />
+
+    <ImageView
+        android:id="@+id/badge32__dogass_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/badge32_game_white_bt"
+        app:layout_constraintTop_toTopOf="@+id/badge32_game_white_bt"
+        app:srcCompat="@drawable/badge32_dogass" />
+
+    <TextView
+        android:id="@+id/badge32__dogass_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="總數 : 0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="@+id/badge32__dogass_bt"
+        app:layout_constraintStart_toStartOf="@+id/badge32__dogass_bt"
+        app:layout_constraintTop_toBottomOf="@+id/badge32__dogass_bt" />
+
+    <ImageView
+        android:id="@+id/badge32__friedshrimp_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/badge32_3_hello_counter"
+        app:srcCompat="@drawable/badge32_friedshrimp" />
+
+    <TextView
+        android:id="@+id/badge32__friedshrimp_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="總數 : 0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="@+id/badge32__friedshrimp_bt"
+        app:layout_constraintStart_toStartOf="@+id/badge32__friedshrimp_bt"
+        app:layout_constraintTop_toBottomOf="@+id/badge32__friedshrimp_bt" />
+
+    <ImageView
+        android:id="@+id/badge32_guineapig_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@+id/badge32__friedshrimp_bt"
+        app:layout_constraintTop_toTopOf="@+id/badge32__friedshrimp_bt"
+        app:srcCompat="@drawable/badge32_guineapig" />
+
+    <TextView
+        android:id="@+id/badge32_guineapig_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="總數 : 0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="@+id/badge32_guineapig_bt"
+        app:layout_constraintStart_toStartOf="@+id/badge32_guineapig_bt"
+        app:layout_constraintTop_toBottomOf="@+id/badge32_guineapig_bt" />
+
+    <ImageView
+        android:id="@+id/badge32_guineapig_3_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@+id/badge32_guineapig_bt"
+        app:layout_constraintTop_toTopOf="@+id/badge32_guineapig_bt"
+        app:srcCompat="@drawable/badge32_guineapig_3" />
+
+    <TextView
+        android:id="@+id/badge32_guineapig_3_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="總數 : 0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="@+id/badge32_guineapig_3_bt"
+        app:layout_constraintStart_toStartOf="@+id/badge32_guineapig_3_bt"
+        app:layout_constraintTop_toBottomOf="@+id/badge32_guineapig_3_bt" />
+
+    <ImageView
+        android:id="@+id/badge32_mountain_blue_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/badge32_penguin_pig_bt"
+        app:layout_constraintTop_toTopOf="@+id/badge32_penguin_pig_bt"
+        app:srcCompat="@drawable/badge32_mountain_blue" />
+
+    <TextView
+        android:id="@+id/badge32_mountain_blue_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="總數 : 0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="@+id/badge32_mountain_blue_bt"
+        app:layout_constraintStart_toStartOf="@+id/badge32_mountain_blue_bt"
+        app:layout_constraintTop_toBottomOf="@+id/badge32_mountain_blue_bt" />
+
+    <ImageView
+        android:id="@+id/badge32_penguin_pig_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/badge32_pig_bt"
+        app:layout_constraintTop_toTopOf="@+id/badge32_pig_bt"
+        app:srcCompat="@drawable/badge32_penguin_pig" />
+
+    <ImageView
+        android:id="@+id/badge32_pig_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/badge32__friedshrimp_counter"
+        app:srcCompat="@drawable/badge32_pig" />
+
+    <ImageView
+        android:id="@+id/badge32_planet_blue_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@+id/badge32_pig_bt"
+        app:layout_constraintTop_toTopOf="@+id/badge32_pig_bt"
+        app:srcCompat="@drawable/badge32_planet_blue" />
+
+    <ImageView
+        android:id="@+id/badge32_planet_pink_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@+id/badge32_planet_blue_bt"
+        app:layout_constraintTop_toTopOf="@+id/badge32_planet_blue_bt"
+        app:srcCompat="@drawable/badge32_planet_pink" />
+
+    <ImageView
+        android:id="@+id/badge32_rice_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/badge32_switch_bt"
+        app:layout_constraintTop_toTopOf="@+id/badge32_switch_bt"
+        app:srcCompat="@drawable/badge32_rice" />
+
+    <TextView
+        android:id="@+id/badge32_penguin_pig_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="總數 : 0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="@+id/badge32_penguin_pig_bt"
+        app:layout_constraintStart_toStartOf="@+id/badge32_penguin_pig_bt"
+        app:layout_constraintTop_toBottomOf="@+id/badge32_penguin_pig_bt" />
+
+    <TextView
+        android:id="@+id/badge32_pig_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="總數 : 0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="@+id/badge32_pig_bt"
+        app:layout_constraintStart_toStartOf="@+id/badge32_pig_bt"
+        app:layout_constraintTop_toBottomOf="@+id/badge32_pig_bt" />
+
+    <TextView
+        android:id="@+id/badge32_planet_blue_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="總數 : 0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="@+id/badge32_planet_blue_bt"
+        app:layout_constraintStart_toStartOf="@+id/badge32_planet_blue_bt"
+        app:layout_constraintTop_toBottomOf="@+id/badge32_planet_blue_bt" />
+
+    <TextView
+        android:id="@+id/badge32_planet_pink_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="總數 : 0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="@+id/badge32_planet_pink_bt"
+        app:layout_constraintStart_toStartOf="@+id/badge32_planet_pink_bt"
+        app:layout_constraintTop_toBottomOf="@+id/badge32_planet_pink_bt" />
+
+    <TextView
+        android:id="@+id/badge32_rice_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="總數 : 0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="@+id/badge32_rice_bt"
+        app:layout_constraintStart_toStartOf="@+id/badge32_rice_bt"
+        app:layout_constraintTop_toBottomOf="@+id/badge32_rice_bt" />
+
+    <ImageView
+        android:id="@+id/badge32_toastegg_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/badge32_pig_counter"
+        app:srcCompat="@drawable/badge32_toastegg" />
+
+    <ImageView
+        android:id="@+id/badge32_tomato_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@+id/badge32_toastegg_bt"
+        app:layout_constraintTop_toTopOf="@+id/badge32_toastegg_bt"
+        app:srcCompat="@drawable/badge32_tomato" />
+
+    <ImageView
+        android:id="@+id/badge32_whitebear_guineapig_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@+id/badge32_tomato_bt"
+        app:layout_constraintTop_toTopOf="@+id/badge32_tomato_bt"
+        app:srcCompat="@drawable/badge32_whitebear_guineapig" />
+
+    <TextView
+        android:id="@+id/badge32_toastegg_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="總數 : 0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="@+id/badge32_toastegg_bt"
+        app:layout_constraintStart_toStartOf="@+id/badge32_toastegg_bt"
+        app:layout_constraintTop_toBottomOf="@+id/badge32_toastegg_bt" />
+
+    <TextView
+        android:id="@+id/badge32_tomato_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="總數 : 0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="@+id/badge32_tomato_bt"
+        app:layout_constraintStart_toStartOf="@+id/badge32_tomato_bt"
+        app:layout_constraintTop_toBottomOf="@+id/badge32_tomato_bt" />
+
+    <TextView
+        android:id="@+id/badge32_whitebear_guineapig_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="總數 : 0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="@+id/badge32_whitebear_guineapig_bt"
+        app:layout_constraintStart_toStartOf="@+id/badge32_whitebear_guineapig_bt"
+        app:layout_constraintTop_toBottomOf="@+id/badge32_whitebear_guineapig_bt" />
+
+    <ImageView
+        android:id="@+id/badge32_game_white_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/badge32__friedshrimp_bt"
+        app:layout_constraintTop_toTopOf="@+id/badge32__friedshrimp_bt"
+        app:srcCompat="@drawable/badge32_game_white" />
+
+    <TextView
+        android:id="@+id/badge32_game_white_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="總數 : 0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="@+id/badge32_game_white_bt"
+        app:layout_constraintStart_toStartOf="@+id/badge32_game_white_bt"
+        app:layout_constraintTop_toBottomOf="@+id/badge32_game_white_bt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
